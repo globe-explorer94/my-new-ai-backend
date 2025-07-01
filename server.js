@@ -11,7 +11,7 @@
     // Enable CORS for your Netlify frontend (replace with your actual Netlify URL)
     // This allows your Netlify site to make requests to this Glitch backend.
     app.use(cors({
-        origin: 'delicate-horse-ae2f85.netlify.app' // IMPORTANT: Replace with your Netlify URL!
+        origin: 'https://delicate-horse-ae2f85.netlify.app' // IMPORTANT: Replace with your Netlify URL!
     }));
 
     // Middleware to parse JSON request bodies
