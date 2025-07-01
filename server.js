@@ -20,7 +20,7 @@
     // Initialize Gemini API
     // Ensure GEMINI_API_KEY is set in your Glitch .env file
     const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
-    const model = genAI.getGenerativeModel({ model: "gemini-pro" }); // Or "gemini-1.5-flash"
+    const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
     // --- API Endpoint for Chatbot ---
     app.post('/chat', async (req, res) => {
